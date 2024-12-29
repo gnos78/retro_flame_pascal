@@ -1,0 +1,4 @@
+flame.exe : flame.pas fl_mod.obj
+	tpc -B fl_mod.obj flame.pas
+fl_mod.obj : fl_mod.asm
+	tasm fl_mod.asm
